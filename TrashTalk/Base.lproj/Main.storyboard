@@ -85,7 +85,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trash_stats.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6aK-Qn-WmL">
-                                <rect key="frame" x="65" y="301" width="284" height="392"/>
+                                <rect key="frame" x="41" y="301" width="284" height="392"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -93,6 +93,9 @@
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" image="second" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="profileStats" destination="6aK-Qn-WmL" id="ldw-3A-OZr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
