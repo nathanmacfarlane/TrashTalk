@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2291E7F221F3001D004F9C63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E7F121F3001D004F9C63 /* AppDelegate.swift */; };
-		2291E7F421F3001D004F9C63 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E7F321F3001D004F9C63 /* FirstViewController.swift */; };
-		2291E7F621F3001D004F9C63 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E7F521F3001D004F9C63 /* SecondViewController.swift */; };
+		2291E7F421F3001D004F9C63 /* MapViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E7F321F3001D004F9C63 /* MapViewVC.swift */; };
+		2291E7F621F3001D004F9C63 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E7F521F3001D004F9C63 /* ProfileVC.swift */; };
 		2291E7F921F3001D004F9C63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2291E7F721F3001D004F9C63 /* Main.storyboard */; };
 		2291E7FB21F3001F004F9C63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2291E7FA21F3001F004F9C63 /* Assets.xcassets */; };
 		2291E7FE21F3001F004F9C63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2291E7FC21F3001F004F9C63 /* LaunchScreen.storyboard */; };
 		2291E80921F3001F004F9C63 /* TrashTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E80821F3001F004F9C63 /* TrashTalkUITests.swift */; };
+		22B4515521F30FFE00B1A10C /* LeaderboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4515421F30FFE00B1A10C /* LeaderboardVC.swift */; };
+		22B4515721F3115100B1A10C /* TrashTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4515621F3115100B1A10C /* TrashTableViewCell.swift */; };
 		22F71BDA21F309D600FD8247 /* TrashMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F71BD921F309D600FD8247 /* TrashMap.swift */; };
 		22F94B4121F30691008DDA4A /* FirestoreExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F94B4021F30691008DDA4A /* FirestoreExtensions.swift */; };
 		22F94B4321F3079E008DDA4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22F94B4221F3079E008DDA4A /* GoogleService-Info.plist */; };
@@ -33,8 +35,8 @@
 /* Begin PBXFileReference section */
 		2291E7EE21F3001D004F9C63 /* TrashTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrashTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2291E7F121F3001D004F9C63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2291E7F321F3001D004F9C63 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		2291E7F521F3001D004F9C63 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2291E7F321F3001D004F9C63 /* MapViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewVC.swift; sourceTree = "<group>"; };
+		2291E7F521F3001D004F9C63 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		2291E7F821F3001D004F9C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2291E7FA21F3001F004F9C63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2291E7FD21F3001F004F9C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +44,8 @@
 		2291E80421F3001F004F9C63 /* TrashTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrashTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2291E80821F3001F004F9C63 /* TrashTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashTalkUITests.swift; sourceTree = "<group>"; };
 		2291E80A21F3001F004F9C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B4515421F30FFE00B1A10C /* LeaderboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardVC.swift; sourceTree = "<group>"; };
+		22B4515621F3115100B1A10C /* TrashTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashTableViewCell.swift; sourceTree = "<group>"; };
 		22F71BD921F309D600FD8247 /* TrashMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashMap.swift; sourceTree = "<group>"; };
 		22F94B4021F30691008DDA4A /* FirestoreExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreExtensions.swift; sourceTree = "<group>"; };
 		22F94B4221F3079E008DDA4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -105,12 +109,13 @@
 				22F94B4221F3079E008DDA4A /* GoogleService-Info.plist */,
 				22F94B3F21F3067D008DDA4A /* Extensions */,
 				2291E7F121F3001D004F9C63 /* AppDelegate.swift */,
-				2291E7F321F3001D004F9C63 /* FirstViewController.swift */,
-				2291E7F521F3001D004F9C63 /* SecondViewController.swift */,
+				2291E7F321F3001D004F9C63 /* MapViewVC.swift */,
+				2291E7F521F3001D004F9C63 /* ProfileVC.swift */,
 				2291E7F721F3001D004F9C63 /* Main.storyboard */,
 				2291E7FA21F3001F004F9C63 /* Assets.xcassets */,
 				2291E7FC21F3001F004F9C63 /* LaunchScreen.storyboard */,
 				2291E7FF21F3001F004F9C63 /* Info.plist */,
+				22B4515421F30FFE00B1A10C /* LeaderboardVC.swift */,
 			);
 			path = TrashTalk;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				22F71BD921F309D600FD8247 /* TrashMap.swift */,
+				22B4515621F3115100B1A10C /* TrashTableViewCell.swift */,
 			);
 			path = SubClasses;
 			sourceTree = "<group>";
@@ -326,10 +332,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2291E7F621F3001D004F9C63 /* SecondViewController.swift in Sources */,
+				22B4515721F3115100B1A10C /* TrashTableViewCell.swift in Sources */,
+				2291E7F621F3001D004F9C63 /* ProfileVC.swift in Sources */,
+				22B4515521F30FFE00B1A10C /* LeaderboardVC.swift in Sources */,
 				2291E7F221F3001D004F9C63 /* AppDelegate.swift in Sources */,
 				22F71BDA21F309D600FD8247 /* TrashMap.swift in Sources */,
-				2291E7F421F3001D004F9C63 /* FirstViewController.swift in Sources */,
+				2291E7F421F3001D004F9C63 /* MapViewVC.swift in Sources */,
 				22F94B4121F30691008DDA4A /* FirestoreExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

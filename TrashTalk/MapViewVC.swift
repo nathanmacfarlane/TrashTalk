@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  TrashTalk
 //
 //  Created by Nathan Macfarlane on 1/18/19.
@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import MapKit
 
-class SecondViewController: UIViewController {
+class MapViewVC: UIViewController {
+
+    @IBOutlet weak var mapView: TrashMap!
 
     override func viewDidLoad() {
         super.viewDidLoad()
