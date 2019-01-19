@@ -19,6 +19,7 @@
 		22F71BDA21F309D600FD8247 /* TrashMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F71BD921F309D600FD8247 /* TrashMap.swift */; };
 		22F94B4121F30691008DDA4A /* FirestoreExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F94B4021F30691008DDA4A /* FirestoreExtensions.swift */; };
 		22F94B4321F3079E008DDA4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22F94B4221F3079E008DDA4A /* GoogleService-Info.plist */; };
+		CD99AADB21F31932008E5F2A /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = CD99AADA21F31932008E5F2A /* trash.png */; };
 		FA49DF4C1F56F88B61A9CBE8 /* Pods_TrashTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA11D8F82002B34940C54F6 /* Pods_TrashTalk.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		22F94B4221F3079E008DDA4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		78200C20AA20F231A496B8A4 /* Pods-TrashTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrashTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrashTalk/Pods-TrashTalk.debug.xcconfig"; sourceTree = "<group>"; };
 		9EA11D8F82002B34940C54F6 /* Pods_TrashTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrashTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD99AADA21F31932008E5F2A /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trash.png; path = ../../../../Downloads/trash.png; sourceTree = "<group>"; };
 		CEC1FC954936A085B254478A /* Pods-TrashTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrashTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrashTalk/Pods-TrashTalk.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +115,7 @@
 				2291E7F521F3001D004F9C63 /* ProfileVC.swift */,
 				2291E7F721F3001D004F9C63 /* Main.storyboard */,
 				2291E7FA21F3001F004F9C63 /* Assets.xcassets */,
+				CD99AADA21F31932008E5F2A /* trash.png */,
 				2291E7FC21F3001F004F9C63 /* LaunchScreen.storyboard */,
 				2291E7FF21F3001F004F9C63 /* Info.plist */,
 				22B4515421F30FFE00B1A10C /* LeaderboardVC.swift */,
@@ -240,6 +243,7 @@
 			files = (
 				2291E7FE21F3001F004F9C63 /* LaunchScreen.storyboard in Resources */,
 				22F94B4321F3079E008DDA4A /* GoogleService-Info.plist in Resources */,
+				CD99AADB21F31932008E5F2A /* trash.png in Resources */,
 				2291E7FB21F3001F004F9C63 /* Assets.xcassets in Resources */,
 				2291E7F921F3001D004F9C63 /* Main.storyboard in Resources */,
 			);
@@ -279,7 +283,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TrashTalk/Pods-TrashTalk-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-TrashTalk/Pods-TrashTalk-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
 				"${BUILT_PRODUCTS_DIR}/CodableFirebase/CodableFirebase.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
@@ -304,7 +308,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrashTalk/Pods-TrashTalk-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrashTalk/Pods-TrashTalk-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A90229931974AFA1A8E1D264 /* [CP] Copy Pods Resources */ = {
@@ -313,7 +317,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TrashTalk/Pods-TrashTalk-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-TrashTalk/Pods-TrashTalk-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates-Firestore.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -322,7 +326,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrashTalk/Pods-TrashTalk-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrashTalk/Pods-TrashTalk-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -502,7 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V49HA8576N;
+				DEVELOPMENT_TEAM = N2QVU66C78;
 				INFOPLIST_FILE = TrashTalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -521,7 +525,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V49HA8576N;
+				DEVELOPMENT_TEAM = N2QVU66C78;
 				INFOPLIST_FILE = TrashTalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
