@@ -10,6 +10,7 @@
 		08AB7C8A21F32A5E003DE2C2 /* trash_stats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08AB7C8921F32A5E003DE2C2 /* trash_stats.jpg */; };
 		2288481F21F3E19C00A686AD /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2288481E21F3E19C00A686AD /* 2.png */; };
 		2288482121F3E32800A686AD /* 2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2288482021F3E32700A686AD /* 2-1.png */; };
+		2288482521F3E90500A686AD /* 2-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2288482421F3E90500A686AD /* 2-2.png */; };
 		2291E7F221F3001D004F9C63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E7F121F3001D004F9C63 /* AppDelegate.swift */; };
 		2291E7F421F3001D004F9C63 /* MapViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E7F321F3001D004F9C63 /* MapViewVC.swift */; };
 		2291E7F621F3001D004F9C63 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E7F521F3001D004F9C63 /* ProfileVC.swift */; };
@@ -59,6 +60,7 @@
 		08AB7C8921F32A5E003DE2C2 /* trash_stats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trash_stats.jpg; sourceTree = "<group>"; };
 		2288481E21F3E19C00A686AD /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		2288482021F3E32700A686AD /* 2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-1.png"; sourceTree = "<group>"; };
+		2288482421F3E90500A686AD /* 2-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-2.png"; sourceTree = "<group>"; };
 		2291E7EE21F3001D004F9C63 /* TrashTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrashTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2291E7F121F3001D004F9C63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2291E7F321F3001D004F9C63 /* MapViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewVC.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				22B4518221F3CFE300B1A10C /* icons-10.png */,
+				2288482421F3E90500A686AD /* 2-2.png */,
 				22B4518421F3D2A500B1A10C /* Untitled-4-10.png */,
 				2288481E21F3E19C00A686AD /* 2.png */,
 				2288482021F3E32700A686AD /* 2-1.png */,
@@ -330,6 +333,7 @@
 				2291E7FB21F3001F004F9C63 /* Assets.xcassets in Resources */,
 				22B4516521F34AB700B1A10C /* user.jpg in Resources */,
 				22B4518521F3D2A500B1A10C /* Untitled-4-10.png in Resources */,
+				2288482521F3E90500A686AD /* 2-2.png in Resources */,
 				2288482121F3E32800A686AD /* 2-1.png in Resources */,
 				2291E7F921F3001D004F9C63 /* Main.storyboard in Resources */,
 				22B4518321F3CFE400B1A10C /* icons-10.png in Resources */,
