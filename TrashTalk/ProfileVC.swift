@@ -23,5 +23,7 @@ class ProfileVC: UIViewController {
     
     @IBAction func profileEmail(_ sender: UITextField) {
     }
+    
+    @IBOutlet weak var profileStats: UIImageView!
 }
 
