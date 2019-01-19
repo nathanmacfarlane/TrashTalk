@@ -24,6 +24,18 @@ extension Firestore {
         }
     }
 
+    func queryAll<T>(collection: String, of type: T.Type, completion: @escaping (_ results: [T]) -> Void) where T: Decodable {
+        var results: [T] = []
+        let decoder = FirebaseDecoder()
+        self.queryAll(collection: collection) { documents in
+            for doc in documents {
+                guard let result = try? decoder.decode(T.self, from: doc.data() as Any) else { continue }
+                results.append(result)
+            }
+            completion(results)
+        }
+    }
+
     /// Generic firebase save function for classes that conform to Encodable
     /// - Parameters:
     ///   - object: Any type that conforms to Encodable Protocol
@@ -52,6 +64,16 @@ extension Firestore {
         settings.areTimestampsInSnapshotsEnabled = true
         self.settings = settings
         self.collection(collection).whereField(field, isEqualTo: value).getDocuments { snapshot, err in
+            guard err == nil, let snap = snapshot else { return }
+            completion(snap.documents)
+        }
+    }
+
+    private func queryAll(collection: String, completion: @escaping (_ results: [QueryDocumentSnapshot]) -> Void) {
+        let settings = self.settings
+        settings.areTimestampsInSnapshotsEnabled = true
+        self.settings = settings
+        self.collection(collection).getDocuments { snapshot, err in
             guard err == nil, let snap = snapshot else { return }
             completion(snap.documents)
         }

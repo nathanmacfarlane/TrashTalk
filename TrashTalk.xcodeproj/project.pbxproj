@@ -20,9 +20,13 @@
 		22B4516321F34A7000B1A10C /* stats.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B4516221F34A7000B1A10C /* stats.png */; };
 		22B4516521F34AB700B1A10C /* user.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22B4516421F34AB600B1A10C /* user.jpg */; };
 		22B4516721F34DCC00B1A10C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4516621F34DCC00B1A10C /* User.swift */; };
+		22B4516921F3602100B1A10C /* SendTrashTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4516821F3602100B1A10C /* SendTrashTalk.swift */; };
+		22B4516B21F365FB00B1A10C /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4516A21F365FB00B1A10C /* Notification.swift */; };
+		22B4516E21F384B100B1A10C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22B4516D21F384B100B1A10C /* GoogleService-Info.plist */; };
+		22B4517021F38AB900B1A10C /* TrashDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4516F21F38AB900B1A10C /* TrashDetailView.swift */; };
+		22B4517221F38BF800B1A10C /* Trash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4517121F38BF800B1A10C /* Trash.swift */; };
 		22F71BDA21F309D600FD8247 /* TrashMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F71BD921F309D600FD8247 /* TrashMap.swift */; };
 		22F94B4121F30691008DDA4A /* FirestoreExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F94B4021F30691008DDA4A /* FirestoreExtensions.swift */; };
-		22F94B4321F3079E008DDA4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22F94B4221F3079E008DDA4A /* GoogleService-Info.plist */; };
 		FA49DF4C1F56F88B61A9CBE8 /* Pods_TrashTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA11D8F82002B34940C54F6 /* Pods_TrashTalk.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,9 +58,14 @@
 		22B4516221F34A7000B1A10C /* stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stats.png; sourceTree = "<group>"; };
 		22B4516421F34AB600B1A10C /* user.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user.jpg; sourceTree = "<group>"; };
 		22B4516621F34DCC00B1A10C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		22B4516821F3602100B1A10C /* SendTrashTalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendTrashTalk.swift; sourceTree = "<group>"; };
+		22B4516A21F365FB00B1A10C /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		22B4516C21F36FDA00B1A10C /* TrashTalk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrashTalk.entitlements; sourceTree = "<group>"; };
+		22B4516D21F384B100B1A10C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		22B4516F21F38AB900B1A10C /* TrashDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashDetailView.swift; sourceTree = "<group>"; };
+		22B4517121F38BF800B1A10C /* Trash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trash.swift; sourceTree = "<group>"; };
 		22F71BD921F309D600FD8247 /* TrashMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashMap.swift; sourceTree = "<group>"; };
 		22F94B4021F30691008DDA4A /* FirestoreExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreExtensions.swift; sourceTree = "<group>"; };
-		22F94B4221F3079E008DDA4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		78200C20AA20F231A496B8A4 /* Pods-TrashTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrashTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrashTalk/Pods-TrashTalk.debug.xcconfig"; sourceTree = "<group>"; };
 		9EA11D8F82002B34940C54F6 /* Pods_TrashTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrashTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC1FC954936A085B254478A /* Pods-TrashTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrashTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrashTalk/Pods-TrashTalk.release.xcconfig"; sourceTree = "<group>"; };
@@ -113,11 +122,11 @@
 		2291E7F021F3001D004F9C63 /* TrashTalk */ = {
 			isa = PBXGroup;
 			children = (
+				22B4516C21F36FDA00B1A10C /* TrashTalk.entitlements */,
 				22B4516421F34AB600B1A10C /* user.jpg */,
 				22B4516221F34A7000B1A10C /* stats.png */,
 				08AB7C8921F32A5E003DE2C2 /* trash_stats.jpg */,
 				22F71BD821F309B200FD8247 /* SubClasses */,
-				22F94B4221F3079E008DDA4A /* GoogleService-Info.plist */,
 				22F94B3F21F3067D008DDA4A /* Extensions */,
 				2291E7F121F3001D004F9C63 /* AppDelegate.swift */,
 				2291E7F321F3001D004F9C63 /* MapViewVC.swift */,
@@ -128,6 +137,10 @@
 				2291E7FF21F3001F004F9C63 /* Info.plist */,
 				22B4515421F30FFE00B1A10C /* LeaderboardVC.swift */,
 				22B4516621F34DCC00B1A10C /* User.swift */,
+				22B4516821F3602100B1A10C /* SendTrashTalk.swift */,
+				22B4516A21F365FB00B1A10C /* Notification.swift */,
+				22B4516F21F38AB900B1A10C /* TrashDetailView.swift */,
+				22B4517121F38BF800B1A10C /* Trash.swift */,
 			);
 			path = TrashTalk;
 			sourceTree = "<group>";
@@ -153,6 +166,7 @@
 		22F94B3F21F3067D008DDA4A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				22B4516D21F384B100B1A10C /* GoogleService-Info.plist */,
 				22F94B4021F30691008DDA4A /* FirestoreExtensions.swift */,
 			);
 			path = Extensions;
@@ -219,6 +233,11 @@
 				TargetAttributes = {
 					2291E7ED21F3001D004F9C63 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					2291E80321F3001F004F9C63 = {
 						CreatedOnToolsVersion = 10.1;
@@ -252,11 +271,11 @@
 			files = (
 				2291E7FE21F3001F004F9C63 /* LaunchScreen.storyboard in Resources */,
 				22B4516321F34A7000B1A10C /* stats.png in Resources */,
-				22F94B4321F3079E008DDA4A /* GoogleService-Info.plist in Resources */,
 				2291E7FB21F3001F004F9C63 /* Assets.xcassets in Resources */,
 				22B4516521F34AB700B1A10C /* user.jpg in Resources */,
 				2291E7F921F3001D004F9C63 /* Main.storyboard in Resources */,
 				08AB7C8A21F32A5E003DE2C2 /* trash_stats.jpg in Resources */,
+				22B4516E21F384B100B1A10C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,12 +366,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B4517221F38BF800B1A10C /* Trash.swift in Sources */,
 				22B4515721F3115100B1A10C /* TrashTableViewCell.swift in Sources */,
 				2291E7F621F3001D004F9C63 /* ProfileVC.swift in Sources */,
 				22B4515521F30FFE00B1A10C /* LeaderboardVC.swift in Sources */,
 				2291E7F221F3001D004F9C63 /* AppDelegate.swift in Sources */,
 				22B4516721F34DCC00B1A10C /* User.swift in Sources */,
 				22F71BDA21F309D600FD8247 /* TrashMap.swift in Sources */,
+				22B4516B21F365FB00B1A10C /* Notification.swift in Sources */,
+				22B4517021F38AB900B1A10C /* TrashDetailView.swift in Sources */,
+				22B4516921F3602100B1A10C /* SendTrashTalk.swift in Sources */,
 				2291E7F421F3001D004F9C63 /* MapViewVC.swift in Sources */,
 				22F94B4121F30691008DDA4A /* FirestoreExtensions.swift in Sources */,
 			);
@@ -517,6 +540,7 @@
 			baseConfigurationReference = 78200C20AA20F231A496B8A4 /* Pods-TrashTalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TrashTalk/TrashTalk.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V49HA8576N;
 				INFOPLIST_FILE = TrashTalk/Info.plist;
@@ -524,7 +548,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = n8.TrashTalk;
+				PRODUCT_BUNDLE_IDENTIFIER = n8.TrashTalk1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -536,6 +560,7 @@
 			baseConfigurationReference = CEC1FC954936A085B254478A /* Pods-TrashTalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TrashTalk/TrashTalk.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V49HA8576N;
 				INFOPLIST_FILE = TrashTalk/Info.plist;
@@ -543,7 +568,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = n8.TrashTalk;
+				PRODUCT_BUNDLE_IDENTIFIER = n8.TrashTalk1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
