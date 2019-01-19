@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import MapKit
 
 class FirstViewController: UIViewController {
+
+    @IBOutlet weak var mapView: TrashMap!
 
     override func viewDidLoad() {
         super.viewDidLoad()

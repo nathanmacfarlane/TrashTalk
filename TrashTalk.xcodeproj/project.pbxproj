@@ -14,6 +14,9 @@
 		2291E7FB21F3001F004F9C63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2291E7FA21F3001F004F9C63 /* Assets.xcassets */; };
 		2291E7FE21F3001F004F9C63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2291E7FC21F3001F004F9C63 /* LaunchScreen.storyboard */; };
 		2291E80921F3001F004F9C63 /* TrashTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E80821F3001F004F9C63 /* TrashTalkUITests.swift */; };
+		22F71BDA21F309D600FD8247 /* TrashMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F71BD921F309D600FD8247 /* TrashMap.swift */; };
+		22F94B4121F30691008DDA4A /* FirestoreExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F94B4021F30691008DDA4A /* FirestoreExtensions.swift */; };
+		22F94B4321F3079E008DDA4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22F94B4221F3079E008DDA4A /* GoogleService-Info.plist */; };
 		FA49DF4C1F56F88B61A9CBE8 /* Pods_TrashTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA11D8F82002B34940C54F6 /* Pods_TrashTalk.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +42,9 @@
 		2291E80421F3001F004F9C63 /* TrashTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrashTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2291E80821F3001F004F9C63 /* TrashTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashTalkUITests.swift; sourceTree = "<group>"; };
 		2291E80A21F3001F004F9C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F71BD921F309D600FD8247 /* TrashMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashMap.swift; sourceTree = "<group>"; };
+		22F94B4021F30691008DDA4A /* FirestoreExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreExtensions.swift; sourceTree = "<group>"; };
+		22F94B4221F3079E008DDA4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		78200C20AA20F231A496B8A4 /* Pods-TrashTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrashTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrashTalk/Pods-TrashTalk.debug.xcconfig"; sourceTree = "<group>"; };
 		9EA11D8F82002B34940C54F6 /* Pods_TrashTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrashTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC1FC954936A085B254478A /* Pods-TrashTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrashTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrashTalk/Pods-TrashTalk.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +101,9 @@
 		2291E7F021F3001D004F9C63 /* TrashTalk */ = {
 			isa = PBXGroup;
 			children = (
+				22F71BD821F309B200FD8247 /* SubClasses */,
+				22F94B4221F3079E008DDA4A /* GoogleService-Info.plist */,
+				22F94B3F21F3067D008DDA4A /* Extensions */,
 				2291E7F121F3001D004F9C63 /* AppDelegate.swift */,
 				2291E7F321F3001D004F9C63 /* FirstViewController.swift */,
 				2291E7F521F3001D004F9C63 /* SecondViewController.swift */,
@@ -113,6 +122,22 @@
 				2291E80A21F3001F004F9C63 /* Info.plist */,
 			);
 			path = TrashTalkUITests;
+			sourceTree = "<group>";
+		};
+		22F71BD821F309B200FD8247 /* SubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				22F71BD921F309D600FD8247 /* TrashMap.swift */,
+			);
+			path = SubClasses;
+			sourceTree = "<group>";
+		};
+		22F94B3F21F3067D008DDA4A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				22F94B4021F30691008DDA4A /* FirestoreExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		C95A348FB1975988ED8D71F1 /* Frameworks */ = {
@@ -208,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2291E7FE21F3001F004F9C63 /* LaunchScreen.storyboard in Resources */,
+				22F94B4321F3079E008DDA4A /* GoogleService-Info.plist in Resources */,
 				2291E7FB21F3001F004F9C63 /* Assets.xcassets in Resources */,
 				2291E7F921F3001D004F9C63 /* Main.storyboard in Resources */,
 			);
@@ -302,7 +328,9 @@
 			files = (
 				2291E7F621F3001D004F9C63 /* SecondViewController.swift in Sources */,
 				2291E7F221F3001D004F9C63 /* AppDelegate.swift in Sources */,
+				22F71BDA21F309D600FD8247 /* TrashMap.swift in Sources */,
 				2291E7F421F3001D004F9C63 /* FirstViewController.swift in Sources */,
+				22F94B4121F30691008DDA4A /* FirestoreExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
