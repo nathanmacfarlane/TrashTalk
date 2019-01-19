@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		08AB7C8A21F32A5E003DE2C2 /* trash_stats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08AB7C8921F32A5E003DE2C2 /* trash_stats.jpg */; };
+		2288481F21F3E19C00A686AD /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2288481E21F3E19C00A686AD /* 2.png */; };
+		2288482121F3E32800A686AD /* 2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2288482021F3E32700A686AD /* 2-1.png */; };
 		2291E7F221F3001D004F9C63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E7F121F3001D004F9C63 /* AppDelegate.swift */; };
 		2291E7F421F3001D004F9C63 /* MapViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E7F321F3001D004F9C63 /* MapViewVC.swift */; };
 		2291E7F621F3001D004F9C63 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E7F521F3001D004F9C63 /* ProfileVC.swift */; };
@@ -32,6 +34,7 @@
 		22B4517F21F3CE7500B1A10C /* icons-09.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B4517E21F3CE7400B1A10C /* icons-09.png */; };
 		22B4518121F3CEA000B1A10C /* icons-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B4518021F3CEA000B1A10C /* icons-03.png */; };
 		22B4518321F3CFE400B1A10C /* icons-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B4518221F3CFE300B1A10C /* icons-10.png */; };
+		22B4518521F3D2A500B1A10C /* Untitled-4-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B4518421F3D2A500B1A10C /* Untitled-4-10.png */; };
 		22F71BDA21F309D600FD8247 /* TrashMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F71BD921F309D600FD8247 /* TrashMap.swift */; };
 		22F94B4121F30691008DDA4A /* FirestoreExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F94B4021F30691008DDA4A /* FirestoreExtensions.swift */; };
 		22F94B4321F3079E008DDA4A /* (null) in Resources */ = {isa = PBXBuildFile; };
@@ -54,6 +57,8 @@
 
 /* Begin PBXFileReference section */
 		08AB7C8921F32A5E003DE2C2 /* trash_stats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trash_stats.jpg; sourceTree = "<group>"; };
+		2288481E21F3E19C00A686AD /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		2288482021F3E32700A686AD /* 2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-1.png"; sourceTree = "<group>"; };
 		2291E7EE21F3001D004F9C63 /* TrashTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrashTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2291E7F121F3001D004F9C63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2291E7F321F3001D004F9C63 /* MapViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewVC.swift; sourceTree = "<group>"; };
@@ -83,6 +88,7 @@
 		22B4517E21F3CE7400B1A10C /* icons-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-09.png"; sourceTree = "<group>"; };
 		22B4518021F3CEA000B1A10C /* icons-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-03.png"; sourceTree = "<group>"; };
 		22B4518221F3CFE300B1A10C /* icons-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-10.png"; sourceTree = "<group>"; };
+		22B4518421F3D2A500B1A10C /* Untitled-4-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-4-10.png"; sourceTree = "<group>"; };
 		22F71BD921F309D600FD8247 /* TrashMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashMap.swift; sourceTree = "<group>"; };
 		22F94B4021F30691008DDA4A /* FirestoreExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreExtensions.swift; sourceTree = "<group>"; };
 		78200C20AA20F231A496B8A4 /* Pods-TrashTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrashTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrashTalk/Pods-TrashTalk.debug.xcconfig"; sourceTree = "<group>"; };
@@ -184,6 +190,9 @@
 			isa = PBXGroup;
 			children = (
 				22B4518221F3CFE300B1A10C /* icons-10.png */,
+				22B4518421F3D2A500B1A10C /* Untitled-4-10.png */,
+				2288481E21F3E19C00A686AD /* 2.png */,
+				2288482021F3E32700A686AD /* 2-1.png */,
 				22B4517821F3CD8D00B1A10C /* icons-05.png */,
 				22B4517A21F3CDD800B1A10C /* icons-04.png */,
 				22B4517621F3CD5400B1A10C /* icons-07.png */,
@@ -317,8 +326,11 @@
 				22F94B4321F3079E008DDA4A /* (null) in Resources */,
 				CD4B7A8321F353AB001DF863 /* 5390-200.png in Resources */,
 				22B4517F21F3CE7500B1A10C /* icons-09.png in Resources */,
+				2288481F21F3E19C00A686AD /* 2.png in Resources */,
 				2291E7FB21F3001F004F9C63 /* Assets.xcassets in Resources */,
 				22B4516521F34AB700B1A10C /* user.jpg in Resources */,
+				22B4518521F3D2A500B1A10C /* Untitled-4-10.png in Resources */,
+				2288482121F3E32800A686AD /* 2-1.png in Resources */,
 				2291E7F921F3001D004F9C63 /* Main.storyboard in Resources */,
 				22B4518321F3CFE400B1A10C /* icons-10.png in Resources */,
 				22B4517B21F3CDD800B1A10C /* icons-04.png in Resources */,

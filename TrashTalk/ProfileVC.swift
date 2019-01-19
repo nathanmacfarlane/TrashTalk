@@ -13,14 +13,12 @@ class ProfileVC: UIViewController, UINavigationControllerDelegate, UIImagePicker
 
     @IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var usernameLabel: UILabel!
     @IBOutlet weak var countLabel: UILabel!
     var indicator: UIActivityIndicatorView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.nameLabel.text = ""
-        self.usernameLabel.text = ""
         self.countLabel.text = ""
         self.profileImage.image = nil
         indicator = UIActivityIndicatorView(style: .gray)
@@ -29,15 +27,13 @@ class ProfileVC: UIViewController, UINavigationControllerDelegate, UIImagePicker
         indicator.startAnimating()
         profileImage.layer.cornerRadius = profileImage.frame.width / 2.0
         profileImage.layer.borderColor = UIColor(red: 228/255, green: 150/255, blue: 144/255, alpha: 1.0).cgColor
-        profileImage.layer.borderWidth = 5.0
+        profileImage.layer.borderWidth = 8.0
 
         self.nameLabel.alpha = 0.0
-        self.usernameLabel.alpha = 0.0
         self.countLabel.alpha = 0.0
         self.profileImage.alpha = 0.0
 
         nameLabel.frame = CGRect(x: nameLabel.frame.minX, y: nameLabel.frame.minY + 10, width: nameLabel.frame.width, height: nameLabel.frame.height)
-        usernameLabel.frame = CGRect(x: usernameLabel.frame.minX, y: usernameLabel.frame.minY + 10, width: usernameLabel.frame.width, height: usernameLabel.frame.height)
         countLabel.frame = CGRect(x: countLabel.frame.minX, y: countLabel.frame.minY + 10, width: countLabel.frame.width, height: countLabel.frame.height)
 
         Auth.auth().signIn(withEmail: "nathanmmacfarlane@gmail.com", password: "password") { user, error in
@@ -60,16 +56,10 @@ class ProfileVC: UIViewController, UINavigationControllerDelegate, UIImagePicker
         Firestore.firestore().query(collection: "users", by: "id", with: id, of: User.self) { user in
             guard let user = user.first else { return }
             self.nameLabel.text = user.name
-            self.usernameLabel.text = user.userName
-            self.countLabel.text = "Trashes Picked Up: \(user.trashCount)"
+            self.countLabel.text = "Trashes Score: \(user.trashCount)pts"
 
             self.animateLabel(label: self.nameLabel)
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-                self.animateLabel(label: self.usernameLabel)
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-                    self.animateLabel(label: self.countLabel)
-                }
-            }
+            self.animateLabel(label: self.countLabel)
 
             URLSession.shared.dataTask(with: URL(string: user.profilePic)! as URL, completionHandler: { (data, response, error) -> Void in
 
@@ -98,7 +88,5 @@ class ProfileVC: UIViewController, UINavigationControllerDelegate, UIImagePicker
             label.frame = CGRect(x: label.frame.minX, y: label.frame.minY - 10, width: label.frame.width, height: label.frame.height)
         }
     }
-    
-    @IBOutlet weak var profileStats: UIImageView!
 }
 

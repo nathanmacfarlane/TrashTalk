@@ -18,37 +18,71 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stats.png" translatesAutoresizingMaskIntoConstraints="NO" id="6aK-Qn-WmL">
-                                <rect key="frame" x="36" y="364" width="303" height="254"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="user.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GKb-Ru-c0J">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GKb-Ru-c0J">
                                 <rect key="frame" x="108" y="89" width="159" height="159"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="159" id="Blz-3a-aw7"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtx-Xy-MnW">
-                                <rect key="frame" x="16" y="256" width="343" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtx-Xy-MnW">
+                                <rect key="frame" x="16" y="256" width="343" height="29"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AaS-7X-5Mc">
-                                <rect key="frame" x="16" y="289" width="343" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="# of Trashes Pick Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RNh-sb-enw">
+                                <rect key="frame" x="16" y="290.5" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="w9r-l7-NJY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="# of Trashes Pick Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RNh-sb-enw">
-                                <rect key="frame" x="16" y="321" width="343" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You've been running behind. Pick up more trash to keep your scores up, litterbug" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KD3-Xg-TyF">
+                                <rect key="frame" x="66" y="423" width="243" height="74"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.png" translatesAutoresizingMaskIntoConstraints="NO" id="nlD-oy-oUJ">
+                                <rect key="frame" x="130" y="505" width="114" height="103"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="103" id="GT9-gb-xKj"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You're Trash!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjW-Sq-Uis">
+                                <rect key="frame" x="16" y="321" width="343" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="KCT-iS-V39"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="yCD-mX-suz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="26"/>
+                                <color key="textColor" red="0.8908727765083313" green="0.79911065101623535" blue="0.58427160978317261" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.71372549019607845" green="0.87058823529411766" blue="0.75294117647058822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.14117647058823529" green="0.74509803921568629" blue="0.53725490196078429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KD3-Xg-TyF" firstAttribute="top" secondItem="hjW-Sq-Uis" secondAttribute="bottom" constant="78" id="6e9-nm-hiN"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="nlD-oy-oUJ" secondAttribute="trailing" constant="131" id="9E2-W9-p2L"/>
+                            <constraint firstItem="rtx-Xy-MnW" firstAttribute="top" secondItem="GKb-Ru-c0J" secondAttribute="bottom" constant="8" id="GeR-VY-uRl"/>
+                            <constraint firstItem="GKb-Ru-c0J" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="69" id="HEc-rL-YRY"/>
+                            <constraint firstItem="KD3-Xg-TyF" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="66" id="Jqn-xJ-3Pe"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="hjW-Sq-Uis" secondAttribute="trailing" constant="16" id="L0a-EV-Do6"/>
+                            <constraint firstItem="RNh-sb-enw" firstAttribute="top" secondItem="rtx-Xy-MnW" secondAttribute="bottom" constant="5.5" id="OYZ-IN-PbJ"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="RNh-sb-enw" secondAttribute="trailing" constant="16" id="TfU-kX-cKl"/>
+                            <constraint firstItem="hjW-Sq-Uis" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="16" id="Xfh-ry-hmD"/>
+                            <constraint firstItem="rtx-Xy-MnW" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="16" id="d6d-Ew-fjH"/>
+                            <constraint firstItem="nlD-oy-oUJ" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="130" id="hrI-Hu-x23"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="bottom" secondItem="nlD-oy-oUJ" secondAttribute="bottom" constant="10" id="j1e-sq-dcq"/>
+                            <constraint firstItem="GKb-Ru-c0J" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="108" id="nzh-0Y-ejg"/>
+                            <constraint firstItem="nlD-oy-oUJ" firstAttribute="top" secondItem="KD3-Xg-TyF" secondAttribute="bottom" constant="8" id="qTO-AJ-tGG"/>
+                            <constraint firstItem="RNh-sb-enw" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="16" id="uUg-qR-arz"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="rtx-Xy-MnW" secondAttribute="trailing" constant="16" id="v3h-KA-06W"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="KD3-Xg-TyF" secondAttribute="trailing" constant="66" id="wPv-j8-GqU"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="GKb-Ru-c0J" secondAttribute="trailing" constant="108" id="yMY-p9-qck"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" image="icons-09.png" selectedImage="icons-03.png" id="cPa-gy-q4n"/>
@@ -56,8 +90,6 @@
                         <outlet property="countLabel" destination="RNh-sb-enw" id="aGv-K4-swG"/>
                         <outlet property="nameLabel" destination="rtx-Xy-MnW" id="7xF-WL-AkS"/>
                         <outlet property="profileImage" destination="GKb-Ru-c0J" id="Ymi-Zc-9cE"/>
-                        <outlet property="profileStats" destination="6aK-Qn-WmL" id="ldw-3A-OZr"/>
-                        <outlet property="usernameLabel" destination="AaS-7X-5Mc" id="HnB-W4-pro"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
@@ -73,9 +105,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Kik-Q6-OL3">
-                                <rect key="frame" x="0.0" y="248" width="375" height="370"/>
+                                <rect key="frame" x="0.0" y="294" width="375" height="324"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.34102770686149597" green="0.74384289979934692" blue="0.54115116596221924" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="78" id="EG9-1O-zB4" customClass="TrashTableViewCell" customModule="TrashTalk" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="78"/>
@@ -84,50 +116,58 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="77.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jrd-Or-olW">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="67"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zgc-ch-w22">
-                                                    <rect key="frame" x="15" y="11" width="345" height="21"/>
+                                                    <rect key="frame" x="10" y="25" width="215" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" red="0.89411764709999997" green="0.58823529409999997" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ouh-8F-4Do">
-                                                    <rect key="frame" x="15" y="40" width="345" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ouh-8F-4Do">
+                                                    <rect key="frame" x="267" y="25" width="91" height="27"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" red="0.89411764709999997" green="0.58823529409999997" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.27352035045623779" green="0.59430533647537231" blue="0.43135225772857666" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="bgView" destination="Jrd-Or-olW" id="d9r-qA-WrY"/>
                                             <outlet property="nameLabel" destination="Zgc-ch-w22" id="7cc-Jh-XwJ"/>
                                             <outlet property="trashLabel" destination="Ouh-8F-4Do" id="WZS-R8-K5q"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trash King: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgU-xQ-FQl">
-                                <rect key="frame" x="16" y="204" width="343" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons-10.png" translatesAutoresizingMaskIntoConstraints="NO" id="1qG-aB-2lq">
-                                <rect key="frame" x="86" y="-11" width="191" height="233"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled-4-10.png" translatesAutoresizingMaskIntoConstraints="NO" id="1qG-aB-2lq">
+                                <rect key="frame" x="65" y="0.0" width="234" height="286"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="user.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CmE-d1-7Hy">
-                                <rect key="frame" x="147" y="83" width="71" height="72"/>
+                                <rect key="frame" x="128" y="107" width="108" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trash King: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgU-xQ-FQl">
+                                <rect key="frame" x="16" y="222" width="343" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.34414891096431277" green="0.54860009517766495" blue="0.45807915898029988" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.14117647058823529" green="0.74509803921568629" blue="0.53725490196078429" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="YFP-BG-P5u"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Leaderboard" image="icons-02.png" selectedImage="icons-04.png" id="o77-eC-bRC"/>
                     <connections>
+                        <outlet property="kingImageView" destination="CmE-d1-7Hy" id="rDG-Co-A3j"/>
                         <outlet property="leaderboardTableView" destination="Kik-Q6-OL3" id="hBV-dP-dS8"/>
                         <outlet property="trashKingLabel" destination="fgU-xQ-FQl" id="tdI-wd-CXs"/>
                     </connections>
@@ -135,6 +175,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ppA-yB-JSZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="748" y="1055.6221889055473"/>
+        </scene>
+        <!--Rewards-->
+        <scene sceneID="Jjq-ly-Thc">
+            <objects>
+                <viewController id="G17-3K-CTx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SP3-Eg-SLm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Tm-hG-zZ2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.34102770686149597" green="0.74384289979934692" blue="0.54115116596221924" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="0Tm-hG-zZ2" firstAttribute="leading" secondItem="l7g-ds-2gD" secondAttribute="leading" id="eol-GH-rGd"/>
+                            <constraint firstItem="l7g-ds-2gD" firstAttribute="top" secondItem="0Tm-hG-zZ2" secondAttribute="top" constant="20" id="fnC-c7-Xf5"/>
+                            <constraint firstItem="l7g-ds-2gD" firstAttribute="trailing" secondItem="0Tm-hG-zZ2" secondAttribute="trailing" id="rtl-Na-O1h"/>
+                            <constraint firstItem="l7g-ds-2gD" firstAttribute="bottom" secondItem="0Tm-hG-zZ2" secondAttribute="bottom" id="ylR-zm-bc6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="l7g-ds-2gD"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Rewards" image="2-1.png" selectedImage="2-1.png" id="KDW-I5-F7d"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="77u-Y8-r3W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="748" y="1719.4902548725638"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -150,6 +217,7 @@
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="ICv-bz-5TH" kind="relationship" relationship="viewControllers" id="giu-fr-Tpm"/>
                         <segue destination="7DK-cs-BFj" kind="relationship" relationship="viewControllers" id="CwO-lh-kPu"/>
+                        <segue destination="G17-3K-CTx" kind="relationship" relationship="viewControllers" id="T2E-IN-JX5"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -235,7 +303,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="2-1.png" width="34" height="41"/>
+        <image name="2.png" width="1359" height="1628"/>
         <image name="Flash Off Icon" width="48" height="48"/>
+        <image name="Untitled-4-10.png" width="1819" height="2179"/>
         <image name="Video Camera Icon" width="48" height="48"/>
         <image name="icons-02.png" width="34" height="41"/>
         <image name="icons-03.png" width="34" height="41"/>
@@ -243,8 +314,6 @@
         <image name="icons-05.png" width="34" height="41"/>
         <image name="icons-07.png" width="34" height="41"/>
         <image name="icons-09.png" width="34" height="41"/>
-        <image name="icons-10.png" width="1819" height="2179"/>
-        <image name="stats.png" width="1022" height="830"/>
         <image name="user.jpg" width="636" height="421"/>
     </resources>
 </document>
