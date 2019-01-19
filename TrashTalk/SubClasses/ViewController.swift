@@ -12,12 +12,9 @@ import Firebase
 
 class ViewController: UIViewController {
     var trash: [String] = [
-        "Get some",
-        "Suck it",
-        "You're the worst",
-        "I'm the best",
-        "Some Trash",
-        "UR 🗑"
+        "Take that",
+        "Eat this",
+        "Your move",
     ]
 
     @IBOutlet fileprivate var captureButton: UIButton!
