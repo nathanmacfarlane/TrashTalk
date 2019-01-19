@@ -15,6 +15,13 @@ class ProfileVC: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func profileName(_ sender: UITextField) {
+    }
+    
+    @IBAction func profileUsername(_ sender: UITextField) {
+    }
+    
+    @IBAction func profileEmail(_ sender: UITextField) {
+    }
 }
 
