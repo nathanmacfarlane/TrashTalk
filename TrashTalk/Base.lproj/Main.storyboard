@@ -139,14 +139,94 @@
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="ICv-bz-5TH" kind="relationship" relationship="viewControllers" id="giu-fr-Tpm"/>
+                        <segue destination="7DK-cs-BFj" kind="relationship" relationship="viewControllers" id="CwO-lh-kPu"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="2Pf-dO-Slq">
+            <objects>
+                <viewController id="7DK-cs-BFj" customClass="ViewController" customModule="AV_Foundation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="of6-5Q-3Ml">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fHn-1m-kS0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAg-Ut-TVt">
+                                        <rect key="frame" x="315" y="16" width="44" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="44" id="0Mv-wL-zWr"/>
+                                            <constraint firstAttribute="height" constant="44" id="iZq-gY-21U"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" image="Flash Off Icon"/>
+                                        <connections>
+                                            <action selector="toggleFlash:" destination="7DK-cs-BFj" eventType="touchUpInside" id="JIf-Ql-Ojh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hyh-cL-Xcc">
+                                        <rect key="frame" x="16" y="607" width="44" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="Ooh-vC-hGi"/>
+                                            <constraint firstAttribute="width" constant="44" id="rbE-zn-xbN"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" image="Video Camera Icon"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="hyh-cL-Xcc" secondAttribute="bottom" constant="16" id="MBj-Ym-VSN"/>
+                                    <constraint firstItem="ZAg-Ut-TVt" firstAttribute="top" secondItem="fHn-1m-kS0" secondAttribute="top" constant="16" id="YGo-Lb-cE1"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZAg-Ut-TVt" secondAttribute="trailing" constant="16" id="jhd-oK-z8v"/>
+                                    <constraint firstItem="hyh-cL-Xcc" firstAttribute="leading" secondItem="fHn-1m-kS0" secondAttribute="leading" constant="16" id="mZc-eP-zql"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFR-sM-u6e">
+                                <rect key="frame" x="160" y="547" width="55" height="55"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="VQn-pA-5i2"/>
+                                    <constraint firstAttribute="height" constant="55" id="utP-Na-daQ"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="captureImage:" destination="7DK-cs-BFj" eventType="touchUpInside" id="57c-Aq-Mrt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Z61-Mx-CTQ" firstAttribute="bottom" secondItem="XFR-sM-u6e" secondAttribute="bottom" constant="16" id="EqQ-wG-AXk"/>
+                            <constraint firstItem="fHn-1m-kS0" firstAttribute="top" secondItem="of6-5Q-3Ml" secondAttribute="top" id="G2L-vb-yFT"/>
+                            <constraint firstItem="XFR-sM-u6e" firstAttribute="centerX" secondItem="Z61-Mx-CTQ" secondAttribute="centerX" id="Nep-oz-BMJ"/>
+                            <constraint firstAttribute="bottom" secondItem="fHn-1m-kS0" secondAttribute="bottom" id="PeG-YY-Fxo"/>
+                            <constraint firstItem="fHn-1m-kS0" firstAttribute="leading" secondItem="Z61-Mx-CTQ" secondAttribute="leading" id="lY7-rF-eQd"/>
+                            <constraint firstItem="Z61-Mx-CTQ" firstAttribute="trailing" secondItem="fHn-1m-kS0" secondAttribute="trailing" id="nL6-YP-pYi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Z61-Mx-CTQ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="xlt-Xf-B9c"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="captureButton" destination="XFR-sM-u6e" id="D6b-gl-yFB"/>
+                        <outlet property="capturePreviewView" destination="fHn-1m-kS0" id="Xma-nb-n5S"/>
+                        <outlet property="toggleFlashButton" destination="ZAg-Ut-TVt" id="48R-Bg-F60"/>
+                        <outlet property="videoModeButton" destination="hyh-cL-Xcc" id="5tf-f2-JNs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P9W-Vy-VCF" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-70" y="822"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Flash Off Icon" width="48" height="48"/>
+        <image name="Video Camera Icon" width="48" height="48"/>
         <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
         <image name="stats.png" width="1022" height="830"/>
