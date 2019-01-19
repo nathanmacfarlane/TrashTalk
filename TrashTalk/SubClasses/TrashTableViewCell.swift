@@ -13,6 +13,9 @@ class TrashTableViewCell: UITableViewCell {
     let thumb = UIImageView()
     let place =  UILabel()
 
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var trashLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         contentView.addSubview(place)
