@@ -1,673 +1,673 @@
 // !$*UTF8*$!
 {
-    archiveVersion = 1;
-    classes = {
-    };
-    objectVersion = 50;
-    objects = {
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
 
 /* Begin PBXBuildFile section */
-        08AB7C8A21F32A5E003DE2C2 /* trash_stats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08AB7C8921F32A5E003DE2C2 /* trash_stats.jpg */; };
-        2291E7F221F3001D004F9C63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E7F121F3001D004F9C63 /* AppDelegate.swift */; };
-        2291E7F421F3001D004F9C63 /* MapViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E7F321F3001D004F9C63 /* MapViewVC.swift */; };
-        2291E7F621F3001D004F9C63 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E7F521F3001D004F9C63 /* ProfileVC.swift */; };
-        2291E7F921F3001D004F9C63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2291E7F721F3001D004F9C63 /* Main.storyboard */; };
-        2291E7FB21F3001F004F9C63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2291E7FA21F3001F004F9C63 /* Assets.xcassets */; };
-        2291E7FE21F3001F004F9C63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2291E7FC21F3001F004F9C63 /* LaunchScreen.storyboard */; };
-        2291E80921F3001F004F9C63 /* TrashTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E80821F3001F004F9C63 /* TrashTalkUITests.swift */; };
-        22B4515521F30FFE00B1A10C /* LeaderboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4515421F30FFE00B1A10C /* LeaderboardVC.swift */; };
-        22B4515721F3115100B1A10C /* TrashTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4515621F3115100B1A10C /* TrashTableViewCell.swift */; };
-        22B4516321F34A7000B1A10C /* stats.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B4516221F34A7000B1A10C /* stats.png */; };
-        22B4516521F34AB700B1A10C /* user.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22B4516421F34AB600B1A10C /* user.jpg */; };
-        22B4516721F34DCC00B1A10C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4516621F34DCC00B1A10C /* User.swift */; };
-        22B4516921F3602100B1A10C /* SendTrashTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4516821F3602100B1A10C /* SendTrashTalk.swift */; };
-        22B4516B21F365FB00B1A10C /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4516A21F365FB00B1A10C /* Notification.swift */; };
-        22B4516E21F384B100B1A10C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22B4516D21F384B100B1A10C /* GoogleService-Info.plist */; };
-        22B4517021F38AB900B1A10C /* TrashDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4516F21F38AB900B1A10C /* TrashDetailView.swift */; };
-        22B4517221F38BF800B1A10C /* Trash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4517121F38BF800B1A10C /* Trash.swift */; };
-        22F71BDA21F309D600FD8247 /* TrashMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F71BD921F309D600FD8247 /* TrashMap.swift */; };
-        22F94B4121F30691008DDA4A /* FirestoreExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F94B4021F30691008DDA4A /* FirestoreExtensions.swift */; };
-        22F94B4321F3079E008DDA4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22F94B4221F3079E008DDA4A /* GoogleService-Info.plist */; };
-        CD4B7A7921F329A8001DF863 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B7A7821F329A8001DF863 /* ImageViewController.swift */; };
-        CD4B7A7F21F35069001DF863 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B7A7E21F35069001DF863 /* ViewController.swift */; };
-        CD4B7A8121F35074001DF863 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B7A8021F35074001DF863 /* CameraController.swift */; };
-        CD4B7A8321F353AB001DF863 /* 5390-200.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4B7A8221F353AB001DF863 /* 5390-200.png */; };
-        CD99AADB21F31932008E5F2A /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = CD99AADA21F31932008E5F2A /* trash.png */; };
-        FA49DF4C1F56F88B61A9CBE8 /* Pods_TrashTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA11D8F82002B34940C54F6 /* Pods_TrashTalk.framework */; };
+		08AB7C8A21F32A5E003DE2C2 /* trash_stats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08AB7C8921F32A5E003DE2C2 /* trash_stats.jpg */; };
+		2291E7F221F3001D004F9C63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E7F121F3001D004F9C63 /* AppDelegate.swift */; };
+		2291E7F421F3001D004F9C63 /* MapViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E7F321F3001D004F9C63 /* MapViewVC.swift */; };
+		2291E7F621F3001D004F9C63 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E7F521F3001D004F9C63 /* ProfileVC.swift */; };
+		2291E7F921F3001D004F9C63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2291E7F721F3001D004F9C63 /* Main.storyboard */; };
+		2291E7FB21F3001F004F9C63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2291E7FA21F3001F004F9C63 /* Assets.xcassets */; };
+		2291E7FE21F3001F004F9C63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2291E7FC21F3001F004F9C63 /* LaunchScreen.storyboard */; };
+		2291E80921F3001F004F9C63 /* TrashTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291E80821F3001F004F9C63 /* TrashTalkUITests.swift */; };
+		22B4515521F30FFE00B1A10C /* LeaderboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4515421F30FFE00B1A10C /* LeaderboardVC.swift */; };
+		22B4515721F3115100B1A10C /* TrashTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4515621F3115100B1A10C /* TrashTableViewCell.swift */; };
+		22B4516321F34A7000B1A10C /* stats.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B4516221F34A7000B1A10C /* stats.png */; };
+		22B4516521F34AB700B1A10C /* user.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22B4516421F34AB600B1A10C /* user.jpg */; };
+		22B4516721F34DCC00B1A10C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4516621F34DCC00B1A10C /* User.swift */; };
+		22B4516921F3602100B1A10C /* SendTrashTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4516821F3602100B1A10C /* SendTrashTalk.swift */; };
+		22B4516B21F365FB00B1A10C /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4516A21F365FB00B1A10C /* Notification.swift */; };
+		22B4516E21F384B100B1A10C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22B4516D21F384B100B1A10C /* GoogleService-Info.plist */; };
+		22B4517021F38AB900B1A10C /* TrashDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4516F21F38AB900B1A10C /* TrashDetailView.swift */; };
+		22B4517221F38BF800B1A10C /* Trash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B4517121F38BF800B1A10C /* Trash.swift */; };
+		22F71BDA21F309D600FD8247 /* TrashMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F71BD921F309D600FD8247 /* TrashMap.swift */; };
+		22F94B4121F30691008DDA4A /* FirestoreExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F94B4021F30691008DDA4A /* FirestoreExtensions.swift */; };
+		22F94B4321F3079E008DDA4A /* (null) in Resources */ = {isa = PBXBuildFile; };
+		CD4B7A7921F329A8001DF863 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B7A7821F329A8001DF863 /* ImageViewController.swift */; };
+		CD4B7A7F21F35069001DF863 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B7A7E21F35069001DF863 /* ViewController.swift */; };
+		CD4B7A8121F35074001DF863 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B7A8021F35074001DF863 /* CameraController.swift */; };
+		CD4B7A8321F353AB001DF863 /* 5390-200.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4B7A8221F353AB001DF863 /* 5390-200.png */; };
+		CD99AADB21F31932008E5F2A /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = CD99AADA21F31932008E5F2A /* trash.png */; };
+		FA49DF4C1F56F88B61A9CBE8 /* Pods_TrashTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA11D8F82002B34940C54F6 /* Pods_TrashTalk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-        2291E80521F3001F004F9C63 /* PBXContainerItemProxy */ = {
-            isa = PBXContainerItemProxy;
-            containerPortal = 2291E7E621F3001D004F9C63 /* Project object */;
-            proxyType = 1;
-            remoteGlobalIDString = 2291E7ED21F3001D004F9C63;
-            remoteInfo = TrashTalk;
-        };
+		2291E80521F3001F004F9C63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2291E7E621F3001D004F9C63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2291E7ED21F3001D004F9C63;
+			remoteInfo = TrashTalk;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-        08AB7C8921F32A5E003DE2C2 /* trash_stats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trash_stats.jpg; sourceTree = "<group>"; };
-        2291E7EE21F3001D004F9C63 /* TrashTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrashTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
-        2291E7F121F3001D004F9C63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-        2291E7F321F3001D004F9C63 /* MapViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewVC.swift; sourceTree = "<group>"; };
-        2291E7F521F3001D004F9C63 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
-        2291E7F821F3001D004F9C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-        2291E7FA21F3001F004F9C63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-        2291E7FD21F3001F004F9C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-        2291E7FF21F3001F004F9C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-        2291E80421F3001F004F9C63 /* TrashTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrashTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-        2291E80821F3001F004F9C63 /* TrashTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashTalkUITests.swift; sourceTree = "<group>"; };
-        2291E80A21F3001F004F9C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-        22B4515421F30FFE00B1A10C /* LeaderboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardVC.swift; sourceTree = "<group>"; };
-        22B4515621F3115100B1A10C /* TrashTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashTableViewCell.swift; sourceTree = "<group>"; };
-        22B4516221F34A7000B1A10C /* stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stats.png; sourceTree = "<group>"; };
-        22B4516421F34AB600B1A10C /* user.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user.jpg; sourceTree = "<group>"; };
-        22B4516621F34DCC00B1A10C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-        22B4516821F3602100B1A10C /* SendTrashTalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendTrashTalk.swift; sourceTree = "<group>"; };
-        22B4516A21F365FB00B1A10C /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
-        22B4516C21F36FDA00B1A10C /* TrashTalk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrashTalk.entitlements; sourceTree = "<group>"; };
-        22B4516D21F384B100B1A10C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-        22B4516F21F38AB900B1A10C /* TrashDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashDetailView.swift; sourceTree = "<group>"; };
-        22B4517121F38BF800B1A10C /* Trash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trash.swift; sourceTree = "<group>"; };
-        22F71BD921F309D600FD8247 /* TrashMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashMap.swift; sourceTree = "<group>"; };
-        22F94B4021F30691008DDA4A /* FirestoreExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreExtensions.swift; sourceTree = "<group>"; };
-        78200C20AA20F231A496B8A4 /* Pods-TrashTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrashTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrashTalk/Pods-TrashTalk.debug.xcconfig"; sourceTree = "<group>"; };
-        9EA11D8F82002B34940C54F6 /* Pods_TrashTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrashTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-        CD4B7A7821F329A8001DF863 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
-        CD4B7A7E21F35069001DF863 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-        CD4B7A8021F35074001DF863 /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
-        CD4B7A8221F353AB001DF863 /* 5390-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5390-200.png"; sourceTree = "<group>"; };
-        CD99AADA21F31932008E5F2A /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trash.png; path = ../../../../Downloads/trash.png; sourceTree = "<group>"; };
-        CEC1FC954936A085B254478A /* Pods-TrashTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrashTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrashTalk/Pods-TrashTalk.release.xcconfig"; sourceTree = "<group>"; };
+		08AB7C8921F32A5E003DE2C2 /* trash_stats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trash_stats.jpg; sourceTree = "<group>"; };
+		2291E7EE21F3001D004F9C63 /* TrashTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrashTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2291E7F121F3001D004F9C63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2291E7F321F3001D004F9C63 /* MapViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewVC.swift; sourceTree = "<group>"; };
+		2291E7F521F3001D004F9C63 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		2291E7F821F3001D004F9C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2291E7FA21F3001F004F9C63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2291E7FD21F3001F004F9C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2291E7FF21F3001F004F9C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2291E80421F3001F004F9C63 /* TrashTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrashTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2291E80821F3001F004F9C63 /* TrashTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashTalkUITests.swift; sourceTree = "<group>"; };
+		2291E80A21F3001F004F9C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B4515421F30FFE00B1A10C /* LeaderboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardVC.swift; sourceTree = "<group>"; };
+		22B4515621F3115100B1A10C /* TrashTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashTableViewCell.swift; sourceTree = "<group>"; };
+		22B4516221F34A7000B1A10C /* stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stats.png; sourceTree = "<group>"; };
+		22B4516421F34AB600B1A10C /* user.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user.jpg; sourceTree = "<group>"; };
+		22B4516621F34DCC00B1A10C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		22B4516821F3602100B1A10C /* SendTrashTalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendTrashTalk.swift; sourceTree = "<group>"; };
+		22B4516A21F365FB00B1A10C /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		22B4516C21F36FDA00B1A10C /* TrashTalk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrashTalk.entitlements; sourceTree = "<group>"; };
+		22B4516D21F384B100B1A10C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		22B4516F21F38AB900B1A10C /* TrashDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashDetailView.swift; sourceTree = "<group>"; };
+		22B4517121F38BF800B1A10C /* Trash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trash.swift; sourceTree = "<group>"; };
+		22F71BD921F309D600FD8247 /* TrashMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashMap.swift; sourceTree = "<group>"; };
+		22F94B4021F30691008DDA4A /* FirestoreExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreExtensions.swift; sourceTree = "<group>"; };
+		78200C20AA20F231A496B8A4 /* Pods-TrashTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrashTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrashTalk/Pods-TrashTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		9EA11D8F82002B34940C54F6 /* Pods_TrashTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrashTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4B7A7821F329A8001DF863 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		CD4B7A7E21F35069001DF863 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD4B7A8021F35074001DF863 /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		CD4B7A8221F353AB001DF863 /* 5390-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5390-200.png"; sourceTree = "<group>"; };
+		CD99AADA21F31932008E5F2A /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trash.png; path = ../../../../Downloads/trash.png; sourceTree = "<group>"; };
+		CEC1FC954936A085B254478A /* Pods-TrashTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrashTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrashTalk/Pods-TrashTalk.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-        2291E7EB21F3001D004F9C63 /* Frameworks */ = {
-            isa = PBXFrameworksBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                FA49DF4C1F56F88B61A9CBE8 /* Pods_TrashTalk.framework in Frameworks */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        2291E80121F3001F004F9C63 /* Frameworks */ = {
-            isa = PBXFrameworksBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+		2291E7EB21F3001D004F9C63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA49DF4C1F56F88B61A9CBE8 /* Pods_TrashTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2291E80121F3001F004F9C63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-        1113963A6C30E4CF7B50F8C6 /* Pods */ = {
-            isa = PBXGroup;
-            children = (
-                78200C20AA20F231A496B8A4 /* Pods-TrashTalk.debug.xcconfig */,
-                CEC1FC954936A085B254478A /* Pods-TrashTalk.release.xcconfig */,
-            );
-            name = Pods;
-            sourceTree = "<group>";
-        };
-        2291E7E521F3001D004F9C63 = {
-            isa = PBXGroup;
-            children = (
-                2291E7F021F3001D004F9C63 /* TrashTalk */,
-                2291E80721F3001F004F9C63 /* TrashTalkUITests */,
-                2291E7EF21F3001D004F9C63 /* Products */,
-                1113963A6C30E4CF7B50F8C6 /* Pods */,
-                C95A348FB1975988ED8D71F1 /* Frameworks */,
-            );
-            sourceTree = "<group>";
-        };
-        2291E7EF21F3001D004F9C63 /* Products */ = {
-            isa = PBXGroup;
-            children = (
-                2291E7EE21F3001D004F9C63 /* TrashTalk.app */,
-                2291E80421F3001F004F9C63 /* TrashTalkUITests.xctest */,
-            );
-            name = Products;
-            sourceTree = "<group>";
-        };
-        2291E7F021F3001D004F9C63 /* TrashTalk */ = {
-            isa = PBXGroup;
-            children = (
-                22B4516C21F36FDA00B1A10C /* TrashTalk.entitlements */,
-                22B4516421F34AB600B1A10C /* user.jpg */,
-                22B4516221F34A7000B1A10C /* stats.png */,
-                08AB7C8921F32A5E003DE2C2 /* trash_stats.jpg */,
-                22F71BD821F309B200FD8247 /* SubClasses */,
-                22F94B3F21F3067D008DDA4A /* Extensions */,
-                2291E7F121F3001D004F9C63 /* AppDelegate.swift */,
-                2291E7F321F3001D004F9C63 /* MapViewVC.swift */,
-                2291E7F521F3001D004F9C63 /* ProfileVC.swift */,
-                2291E7F721F3001D004F9C63 /* Main.storyboard */,
-                CD4B7A8021F35074001DF863 /* CameraController.swift */,
-                2291E7FA21F3001F004F9C63 /* Assets.xcassets */,
-                CD4B7A8221F353AB001DF863 /* 5390-200.png */,
-                CD99AADA21F31932008E5F2A /* trash.png */,
-                2291E7FC21F3001F004F9C63 /* LaunchScreen.storyboard */,
-                2291E7FF21F3001F004F9C63 /* Info.plist */,
-                22B4515421F30FFE00B1A10C /* LeaderboardVC.swift */,
-                22B4516621F34DCC00B1A10C /* User.swift */,
-                22B4516821F3602100B1A10C /* SendTrashTalk.swift */,
-                22B4516A21F365FB00B1A10C /* Notification.swift */,
-                22B4516F21F38AB900B1A10C /* TrashDetailView.swift */,
-                22B4517121F38BF800B1A10C /* Trash.swift */,
-            );
-            path = TrashTalk;
-            sourceTree = "<group>";
-        };
-        2291E80721F3001F004F9C63 /* TrashTalkUITests */ = {
-            isa = PBXGroup;
-            children = (
-                2291E80821F3001F004F9C63 /* TrashTalkUITests.swift */,
-                2291E80A21F3001F004F9C63 /* Info.plist */,
-            );
-            path = TrashTalkUITests;
-            sourceTree = "<group>";
-        };
-        22F71BD821F309B200FD8247 /* SubClasses */ = {
-            isa = PBXGroup;
-            children = (
-                CD4B7A7E21F35069001DF863 /* ViewController.swift */,
-                CD4B7A7821F329A8001DF863 /* ImageViewController.swift */,
-                22F71BD921F309D600FD8247 /* TrashMap.swift */,
-                22B4515621F3115100B1A10C /* TrashTableViewCell.swift */,
-            );
-            path = SubClasses;
-            sourceTree = "<group>";
-        };
-        22F94B3F21F3067D008DDA4A /* Extensions */ = {
-            isa = PBXGroup;
-            children = (
-                22B4516D21F384B100B1A10C /* GoogleService-Info.plist */,
-                22F94B4021F30691008DDA4A /* FirestoreExtensions.swift */,
-            );
-            path = Extensions;
-            sourceTree = "<group>";
-        };
-        C95A348FB1975988ED8D71F1 /* Frameworks */ = {
-            isa = PBXGroup;
-            children = (
-                9EA11D8F82002B34940C54F6 /* Pods_TrashTalk.framework */,
-            );
-            name = Frameworks;
-            sourceTree = "<group>";
-        };
+		1113963A6C30E4CF7B50F8C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78200C20AA20F231A496B8A4 /* Pods-TrashTalk.debug.xcconfig */,
+				CEC1FC954936A085B254478A /* Pods-TrashTalk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2291E7E521F3001D004F9C63 = {
+			isa = PBXGroup;
+			children = (
+				2291E7F021F3001D004F9C63 /* TrashTalk */,
+				2291E80721F3001F004F9C63 /* TrashTalkUITests */,
+				2291E7EF21F3001D004F9C63 /* Products */,
+				1113963A6C30E4CF7B50F8C6 /* Pods */,
+				C95A348FB1975988ED8D71F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2291E7EF21F3001D004F9C63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2291E7EE21F3001D004F9C63 /* TrashTalk.app */,
+				2291E80421F3001F004F9C63 /* TrashTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2291E7F021F3001D004F9C63 /* TrashTalk */ = {
+			isa = PBXGroup;
+			children = (
+				22B4516C21F36FDA00B1A10C /* TrashTalk.entitlements */,
+				22B4516421F34AB600B1A10C /* user.jpg */,
+				22B4516221F34A7000B1A10C /* stats.png */,
+				08AB7C8921F32A5E003DE2C2 /* trash_stats.jpg */,
+				22F71BD821F309B200FD8247 /* SubClasses */,
+				22F94B3F21F3067D008DDA4A /* Extensions */,
+				2291E7F121F3001D004F9C63 /* AppDelegate.swift */,
+				2291E7F321F3001D004F9C63 /* MapViewVC.swift */,
+				2291E7F521F3001D004F9C63 /* ProfileVC.swift */,
+				2291E7F721F3001D004F9C63 /* Main.storyboard */,
+				CD4B7A8021F35074001DF863 /* CameraController.swift */,
+				2291E7FA21F3001F004F9C63 /* Assets.xcassets */,
+				CD4B7A8221F353AB001DF863 /* 5390-200.png */,
+				CD99AADA21F31932008E5F2A /* trash.png */,
+				2291E7FC21F3001F004F9C63 /* LaunchScreen.storyboard */,
+				2291E7FF21F3001F004F9C63 /* Info.plist */,
+				22B4515421F30FFE00B1A10C /* LeaderboardVC.swift */,
+				22B4516621F34DCC00B1A10C /* User.swift */,
+				22B4516821F3602100B1A10C /* SendTrashTalk.swift */,
+				22B4516A21F365FB00B1A10C /* Notification.swift */,
+				22B4516F21F38AB900B1A10C /* TrashDetailView.swift */,
+				22B4517121F38BF800B1A10C /* Trash.swift */,
+			);
+			path = TrashTalk;
+			sourceTree = "<group>";
+		};
+		2291E80721F3001F004F9C63 /* TrashTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2291E80821F3001F004F9C63 /* TrashTalkUITests.swift */,
+				2291E80A21F3001F004F9C63 /* Info.plist */,
+			);
+			path = TrashTalkUITests;
+			sourceTree = "<group>";
+		};
+		22F71BD821F309B200FD8247 /* SubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B7A7E21F35069001DF863 /* ViewController.swift */,
+				CD4B7A7821F329A8001DF863 /* ImageViewController.swift */,
+				22F71BD921F309D600FD8247 /* TrashMap.swift */,
+				22B4515621F3115100B1A10C /* TrashTableViewCell.swift */,
+			);
+			path = SubClasses;
+			sourceTree = "<group>";
+		};
+		22F94B3F21F3067D008DDA4A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				22B4516D21F384B100B1A10C /* GoogleService-Info.plist */,
+				22F94B4021F30691008DDA4A /* FirestoreExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C95A348FB1975988ED8D71F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EA11D8F82002B34940C54F6 /* Pods_TrashTalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-        2291E7ED21F3001D004F9C63 /* TrashTalk */ = {
-            isa = PBXNativeTarget;
-            buildConfigurationList = 2291E80D21F3001F004F9C63 /* Build configuration list for PBXNativeTarget "TrashTalk" */;
-            buildPhases = (
-                1FB7F9ECAE6C4DBB286BF36C /* [CP] Check Pods Manifest.lock */,
-                2291E7EA21F3001D004F9C63 /* Sources */,
-                2291E7EB21F3001D004F9C63 /* Frameworks */,
-                2291E7EC21F3001D004F9C63 /* Resources */,
-                52572A7D265AF4C826E02346 /* [CP] Embed Pods Frameworks */,
-                A90229931974AFA1A8E1D264 /* [CP] Copy Pods Resources */,
-            );
-            buildRules = (
-            );
-            dependencies = (
-            );
-            name = TrashTalk;
-            productName = TrashTalk;
-            productReference = 2291E7EE21F3001D004F9C63 /* TrashTalk.app */;
-            productType = "com.apple.product-type.application";
-        };
-        2291E80321F3001F004F9C63 /* TrashTalkUITests */ = {
-            isa = PBXNativeTarget;
-            buildConfigurationList = 2291E81021F3001F004F9C63 /* Build configuration list for PBXNativeTarget "TrashTalkUITests" */;
-            buildPhases = (
-                2291E80021F3001F004F9C63 /* Sources */,
-                2291E80121F3001F004F9C63 /* Frameworks */,
-                2291E80221F3001F004F9C63 /* Resources */,
-            );
-            buildRules = (
-            );
-            dependencies = (
-                2291E80621F3001F004F9C63 /* PBXTargetDependency */,
-            );
-            name = TrashTalkUITests;
-            productName = TrashTalkUITests;
-            productReference = 2291E80421F3001F004F9C63 /* TrashTalkUITests.xctest */;
-            productType = "com.apple.product-type.bundle.ui-testing";
-        };
+		2291E7ED21F3001D004F9C63 /* TrashTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2291E80D21F3001F004F9C63 /* Build configuration list for PBXNativeTarget "TrashTalk" */;
+			buildPhases = (
+				1FB7F9ECAE6C4DBB286BF36C /* [CP] Check Pods Manifest.lock */,
+				2291E7EA21F3001D004F9C63 /* Sources */,
+				2291E7EB21F3001D004F9C63 /* Frameworks */,
+				2291E7EC21F3001D004F9C63 /* Resources */,
+				52572A7D265AF4C826E02346 /* [CP] Embed Pods Frameworks */,
+				A90229931974AFA1A8E1D264 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrashTalk;
+			productName = TrashTalk;
+			productReference = 2291E7EE21F3001D004F9C63 /* TrashTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2291E80321F3001F004F9C63 /* TrashTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2291E81021F3001F004F9C63 /* Build configuration list for PBXNativeTarget "TrashTalkUITests" */;
+			buildPhases = (
+				2291E80021F3001F004F9C63 /* Sources */,
+				2291E80121F3001F004F9C63 /* Frameworks */,
+				2291E80221F3001F004F9C63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2291E80621F3001F004F9C63 /* PBXTargetDependency */,
+			);
+			name = TrashTalkUITests;
+			productName = TrashTalkUITests;
+			productReference = 2291E80421F3001F004F9C63 /* TrashTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-        2291E7E621F3001D004F9C63 /* Project object */ = {
-            isa = PBXProject;
-            attributes = {
-                LastSwiftUpdateCheck = 1010;
-                LastUpgradeCheck = 1010;
-                ORGANIZATIONNAME = "Nathan Macfarlane";
-                TargetAttributes = {
-                    2291E7ED21F3001D004F9C63 = {
-                        CreatedOnToolsVersion = 10.1;
-                        SystemCapabilities = {
-                            com.apple.Push = {
-                                enabled = 1;
-                            };
-                        };
-                    };
-                    2291E80321F3001F004F9C63 = {
-                        CreatedOnToolsVersion = 10.1;
-                        TestTargetID = 2291E7ED21F3001D004F9C63;
-                    };
-                };
-            };
-            buildConfigurationList = 2291E7E921F3001D004F9C63 /* Build configuration list for PBXProject "TrashTalk" */;
-            compatibilityVersion = "Xcode 9.3";
-            developmentRegion = en;
-            hasScannedForEncodings = 0;
-            knownRegions = (
-                en,
-                Base,
-            );
-            mainGroup = 2291E7E521F3001D004F9C63;
-            productRefGroup = 2291E7EF21F3001D004F9C63 /* Products */;
-            projectDirPath = "";
-            projectRoot = "";
-            targets = (
-                2291E7ED21F3001D004F9C63 /* TrashTalk */,
-                2291E80321F3001F004F9C63 /* TrashTalkUITests */,
-            );
-        };
+		2291E7E621F3001D004F9C63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nathan Macfarlane";
+				TargetAttributes = {
+					2291E7ED21F3001D004F9C63 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					2291E80321F3001F004F9C63 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2291E7ED21F3001D004F9C63;
+					};
+				};
+			};
+			buildConfigurationList = 2291E7E921F3001D004F9C63 /* Build configuration list for PBXProject "TrashTalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2291E7E521F3001D004F9C63;
+			productRefGroup = 2291E7EF21F3001D004F9C63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2291E7ED21F3001D004F9C63 /* TrashTalk */,
+				2291E80321F3001F004F9C63 /* TrashTalkUITests */,
+			);
+		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-        2291E7EC21F3001D004F9C63 /* Resources */ = {
-            isa = PBXResourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                2291E7FE21F3001F004F9C63 /* LaunchScreen.storyboard in Resources */,
-                22B4516321F34A7000B1A10C /* stats.png in Resources */,
-                22F94B4321F3079E008DDA4A /* GoogleService-Info.plist in Resources */,
-                CD4B7A8321F353AB001DF863 /* 5390-200.png in Resources */,
-                CD99AADB21F31932008E5F2A /* trash.png in Resources */,
-                2291E7FB21F3001F004F9C63 /* Assets.xcassets in Resources */,
-                22B4516521F34AB700B1A10C /* user.jpg in Resources */,
-                2291E7F921F3001D004F9C63 /* Main.storyboard in Resources */,
-                08AB7C8A21F32A5E003DE2C2 /* trash_stats.jpg in Resources */,
-                22B4516E21F384B100B1A10C /* GoogleService-Info.plist in Resources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        2291E80221F3001F004F9C63 /* Resources */ = {
-            isa = PBXResourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+		2291E7EC21F3001D004F9C63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2291E7FE21F3001F004F9C63 /* LaunchScreen.storyboard in Resources */,
+				22B4516321F34A7000B1A10C /* stats.png in Resources */,
+				22F94B4321F3079E008DDA4A /* (null) in Resources */,
+				CD4B7A8321F353AB001DF863 /* 5390-200.png in Resources */,
+				CD99AADB21F31932008E5F2A /* trash.png in Resources */,
+				2291E7FB21F3001F004F9C63 /* Assets.xcassets in Resources */,
+				22B4516521F34AB700B1A10C /* user.jpg in Resources */,
+				2291E7F921F3001D004F9C63 /* Main.storyboard in Resources */,
+				08AB7C8A21F32A5E003DE2C2 /* trash_stats.jpg in Resources */,
+				22B4516E21F384B100B1A10C /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2291E80221F3001F004F9C63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-        1FB7F9ECAE6C4DBB286BF36C /* [CP] Check Pods Manifest.lock */ = {
-            isa = PBXShellScriptBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            inputPaths = (
-                "${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-                "${PODS_ROOT}/Manifest.lock",
-            );
-            name = "[CP] Check Pods Manifest.lock";
-            outputPaths = (
-                "$(DERIVED_FILE_DIR)/Pods-TrashTalk-checkManifestLockResult.txt",
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-            shellPath = /bin/sh;
-            shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-            showEnvVarsInLog = 0;
-        };
-        52572A7D265AF4C826E02346 /* [CP] Embed Pods Frameworks */ = {
-            isa = PBXShellScriptBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            inputPaths = (
-                "${PODS_ROOT}/Target Support Files/Pods-TrashTalk/Pods-TrashTalk-frameworks.sh",
-                "${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
-                "${BUILT_PRODUCTS_DIR}/CodableFirebase/CodableFirebase.framework",
-                "${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-                "${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-                "${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-                "${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
-                "${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
-                "${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-                "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-            );
-            name = "[CP] Embed Pods Frameworks";
-            outputPaths = (
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableFirebase.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-                "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-            shellPath = /bin/sh;
-            shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrashTalk/Pods-TrashTalk-frameworks.sh\"\n";
-            showEnvVarsInLog = 0;
-        };
-        A90229931974AFA1A8E1D264 /* [CP] Copy Pods Resources */ = {
-            isa = PBXShellScriptBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            inputPaths = (
-                "${PODS_ROOT}/Target Support Files/Pods-TrashTalk/Pods-TrashTalk-resources.sh",
-                "${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates-Firestore.bundle",
-            );
-            name = "[CP] Copy Pods Resources";
-            outputPaths = (
-                "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Firestore.bundle",
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-            shellPath = /bin/sh;
-            shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrashTalk/Pods-TrashTalk-resources.sh\"\n";
-            showEnvVarsInLog = 0;
-        };
+		1FB7F9ECAE6C4DBB286BF36C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrashTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52572A7D265AF4C826E02346 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrashTalk/Pods-TrashTalk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableFirebase/CodableFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrashTalk/Pods-TrashTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A90229931974AFA1A8E1D264 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrashTalk/Pods-TrashTalk-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates-Firestore.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Firestore.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrashTalk/Pods-TrashTalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-        2291E7EA21F3001D004F9C63 /* Sources */ = {
-            isa = PBXSourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
+		2291E7EA21F3001D004F9C63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 				CD4B7A7F21F35069001DF863 /* ViewController.swift in Sources */,
 				22B4517221F38BF800B1A10C /* Trash.swift in Sources */,
-                22B4515721F3115100B1A10C /* TrashTableViewCell.swift in Sources */,
-                2291E7F621F3001D004F9C63 /* ProfileVC.swift in Sources */,
-                22B4515521F30FFE00B1A10C /* LeaderboardVC.swift in Sources */,
-                2291E7F221F3001D004F9C63 /* AppDelegate.swift in Sources */,
-                22B4516721F34DCC00B1A10C /* User.swift in Sources */,
-                CD4B7A8121F35074001DF863 /* CameraController.swift in Sources */,
-                22F71BDA21F309D600FD8247 /* TrashMap.swift in Sources */,
-                22B4516B21F365FB00B1A10C /* Notification.swift in Sources */,
-                22B4517021F38AB900B1A10C /* TrashDetailView.swift in Sources */,
-                22B4516921F3602100B1A10C /* SendTrashTalk.swift in Sources */,
-                2291E7F421F3001D004F9C63 /* MapViewVC.swift in Sources */,
-                CD4B7A7921F329A8001DF863 /* ImageViewController.swift in Sources */,
-                22F94B4121F30691008DDA4A /* FirestoreExtensions.swift in Sources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        2291E80021F3001F004F9C63 /* Sources */ = {
-            isa = PBXSourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                2291E80921F3001F004F9C63 /* TrashTalkUITests.swift in Sources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+				22B4515721F3115100B1A10C /* TrashTableViewCell.swift in Sources */,
+				2291E7F621F3001D004F9C63 /* ProfileVC.swift in Sources */,
+				22B4515521F30FFE00B1A10C /* LeaderboardVC.swift in Sources */,
+				2291E7F221F3001D004F9C63 /* AppDelegate.swift in Sources */,
+				22B4516721F34DCC00B1A10C /* User.swift in Sources */,
+				CD4B7A8121F35074001DF863 /* CameraController.swift in Sources */,
+				22F71BDA21F309D600FD8247 /* TrashMap.swift in Sources */,
+				22B4516B21F365FB00B1A10C /* Notification.swift in Sources */,
+				22B4517021F38AB900B1A10C /* TrashDetailView.swift in Sources */,
+				22B4516921F3602100B1A10C /* SendTrashTalk.swift in Sources */,
+				2291E7F421F3001D004F9C63 /* MapViewVC.swift in Sources */,
+				CD4B7A7921F329A8001DF863 /* ImageViewController.swift in Sources */,
+				22F94B4121F30691008DDA4A /* FirestoreExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2291E80021F3001F004F9C63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2291E80921F3001F004F9C63 /* TrashTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-        2291E80621F3001F004F9C63 /* PBXTargetDependency */ = {
-            isa = PBXTargetDependency;
-            target = 2291E7ED21F3001D004F9C63 /* TrashTalk */;
-            targetProxy = 2291E80521F3001F004F9C63 /* PBXContainerItemProxy */;
-        };
+		2291E80621F3001F004F9C63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2291E7ED21F3001D004F9C63 /* TrashTalk */;
+			targetProxy = 2291E80521F3001F004F9C63 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-        2291E7F721F3001D004F9C63 /* Main.storyboard */ = {
-            isa = PBXVariantGroup;
-            children = (
-                2291E7F821F3001D004F9C63 /* Base */,
-            );
-            name = Main.storyboard;
-            sourceTree = "<group>";
-        };
-        2291E7FC21F3001F004F9C63 /* LaunchScreen.storyboard */ = {
-            isa = PBXVariantGroup;
-            children = (
-                2291E7FD21F3001F004F9C63 /* Base */,
-            );
-            name = LaunchScreen.storyboard;
-            sourceTree = "<group>";
-        };
+		2291E7F721F3001D004F9C63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2291E7F821F3001D004F9C63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2291E7FC21F3001F004F9C63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2291E7FD21F3001F004F9C63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-        2291E80B21F3001F004F9C63 /* Debug */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ALWAYS_SEARCH_USER_PATHS = NO;
-                CLANG_ANALYZER_NONNULL = YES;
-                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-                CLANG_CXX_LIBRARY = "libc++";
-                CLANG_ENABLE_MODULES = YES;
-                CLANG_ENABLE_OBJC_ARC = YES;
-                CLANG_ENABLE_OBJC_WEAK = YES;
-                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-                CLANG_WARN_BOOL_CONVERSION = YES;
-                CLANG_WARN_COMMA = YES;
-                CLANG_WARN_CONSTANT_CONVERSION = YES;
-                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-                CLANG_WARN_EMPTY_BODY = YES;
-                CLANG_WARN_ENUM_CONVERSION = YES;
-                CLANG_WARN_INFINITE_RECURSION = YES;
-                CLANG_WARN_INT_CONVERSION = YES;
-                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-                CLANG_WARN_STRICT_PROTOTYPES = YES;
-                CLANG_WARN_SUSPICIOUS_MOVE = YES;
-                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-                CLANG_WARN_UNREACHABLE_CODE = YES;
-                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-                CODE_SIGN_IDENTITY = "iPhone Developer";
-                COPY_PHASE_STRIP = NO;
-                DEBUG_INFORMATION_FORMAT = dwarf;
-                ENABLE_STRICT_OBJC_MSGSEND = YES;
-                ENABLE_TESTABILITY = YES;
-                GCC_C_LANGUAGE_STANDARD = gnu11;
-                GCC_DYNAMIC_NO_PIC = NO;
-                GCC_NO_COMMON_BLOCKS = YES;
-                GCC_OPTIMIZATION_LEVEL = 0;
-                GCC_PREPROCESSOR_DEFINITIONS = (
-                    "DEBUG=1",
-                    "$(inherited)",
-                );
-                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-                GCC_WARN_UNDECLARED_SELECTOR = YES;
-                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-                GCC_WARN_UNUSED_FUNCTION = YES;
-                GCC_WARN_UNUSED_VARIABLE = YES;
-                IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-                MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-                MTL_FAST_MATH = YES;
-                ONLY_ACTIVE_ARCH = YES;
-                SDKROOT = iphoneos;
-                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-            };
-            name = Debug;
-        };
-        2291E80C21F3001F004F9C63 /* Release */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ALWAYS_SEARCH_USER_PATHS = NO;
-                CLANG_ANALYZER_NONNULL = YES;
-                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-                CLANG_CXX_LIBRARY = "libc++";
-                CLANG_ENABLE_MODULES = YES;
-                CLANG_ENABLE_OBJC_ARC = YES;
-                CLANG_ENABLE_OBJC_WEAK = YES;
-                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-                CLANG_WARN_BOOL_CONVERSION = YES;
-                CLANG_WARN_COMMA = YES;
-                CLANG_WARN_CONSTANT_CONVERSION = YES;
-                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-                CLANG_WARN_EMPTY_BODY = YES;
-                CLANG_WARN_ENUM_CONVERSION = YES;
-                CLANG_WARN_INFINITE_RECURSION = YES;
-                CLANG_WARN_INT_CONVERSION = YES;
-                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-                CLANG_WARN_STRICT_PROTOTYPES = YES;
-                CLANG_WARN_SUSPICIOUS_MOVE = YES;
-                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-                CLANG_WARN_UNREACHABLE_CODE = YES;
-                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-                CODE_SIGN_IDENTITY = "iPhone Developer";
-                COPY_PHASE_STRIP = NO;
-                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-                ENABLE_NS_ASSERTIONS = NO;
-                ENABLE_STRICT_OBJC_MSGSEND = YES;
-                GCC_C_LANGUAGE_STANDARD = gnu11;
-                GCC_NO_COMMON_BLOCKS = YES;
-                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-                GCC_WARN_UNDECLARED_SELECTOR = YES;
-                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-                GCC_WARN_UNUSED_FUNCTION = YES;
-                GCC_WARN_UNUSED_VARIABLE = YES;
-                IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-                MTL_ENABLE_DEBUG_INFO = NO;
-                MTL_FAST_MATH = YES;
-                SDKROOT = iphoneos;
-                SWIFT_COMPILATION_MODE = wholemodule;
-                SWIFT_OPTIMIZATION_LEVEL = "-O";
-                VALIDATE_PRODUCT = YES;
-            };
-            name = Release;
-        };
-        2291E80E21F3001F004F9C63 /* Debug */ = {
-            isa = XCBuildConfiguration;
-            baseConfigurationReference = 78200C20AA20F231A496B8A4 /* Pods-TrashTalk.debug.xcconfig */;
-            buildSettings = {
-                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-                CODE_SIGN_ENTITLEMENTS = TrashTalk/TrashTalk.entitlements;
-                CODE_SIGN_STYLE = Automatic;
-                DEVELOPMENT_TEAM = N2QVU66C78;
-                INFOPLIST_FILE = TrashTalk/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = (
-                    "$(inherited)",
-                    "@executable_path/Frameworks",
-                );
-                PRODUCT_BUNDLE_IDENTIFIER = n8.TrashTalk1;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.2;
-                TARGETED_DEVICE_FAMILY = "1,2";
-            };
-            name = Debug;
-        };
-        2291E80F21F3001F004F9C63 /* Release */ = {
-            isa = XCBuildConfiguration;
-            baseConfigurationReference = CEC1FC954936A085B254478A /* Pods-TrashTalk.release.xcconfig */;
-            buildSettings = {
-                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-                CODE_SIGN_ENTITLEMENTS = TrashTalk/TrashTalk.entitlements;
-                CODE_SIGN_STYLE = Automatic;
-                DEVELOPMENT_TEAM = N2QVU66C78;
-                INFOPLIST_FILE = TrashTalk/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = (
-                    "$(inherited)",
-                    "@executable_path/Frameworks",
-                );
-                PRODUCT_BUNDLE_IDENTIFIER = n8.TrashTalk1;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.2;
-                TARGETED_DEVICE_FAMILY = "1,2";
-            };
-            name = Release;
-        };
-        2291E81121F3001F004F9C63 /* Debug */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-                CODE_SIGN_STYLE = Automatic;
-                DEVELOPMENT_TEAM = V49HA8576N;
-                INFOPLIST_FILE = TrashTalkUITests/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = (
-                    "$(inherited)",
-                    "@executable_path/Frameworks",
-                    "@loader_path/Frameworks",
-                );
-                PRODUCT_BUNDLE_IDENTIFIER = n8.TrashTalkUITests;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.2;
-                TARGETED_DEVICE_FAMILY = "1,2";
-                TEST_TARGET_NAME = TrashTalk;
-            };
-            name = Debug;
-        };
-        2291E81221F3001F004F9C63 /* Release */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-                CODE_SIGN_STYLE = Automatic;
-                DEVELOPMENT_TEAM = V49HA8576N;
-                INFOPLIST_FILE = TrashTalkUITests/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = (
-                    "$(inherited)",
-                    "@executable_path/Frameworks",
-                    "@loader_path/Frameworks",
-                );
-                PRODUCT_BUNDLE_IDENTIFIER = n8.TrashTalkUITests;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.2;
-                TARGETED_DEVICE_FAMILY = "1,2";
-                TEST_TARGET_NAME = TrashTalk;
-            };
-            name = Release;
-        };
+		2291E80B21F3001F004F9C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2291E80C21F3001F004F9C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2291E80E21F3001F004F9C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78200C20AA20F231A496B8A4 /* Pods-TrashTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TrashTalk/TrashTalk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW43L4RC6S;
+				INFOPLIST_FILE = TrashTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pat.TrashTalk1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2291E80F21F3001F004F9C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC1FC954936A085B254478A /* Pods-TrashTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TrashTalk/TrashTalk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW43L4RC6S;
+				INFOPLIST_FILE = TrashTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pat.TrashTalk1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2291E81121F3001F004F9C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V49HA8576N;
+				INFOPLIST_FILE = TrashTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = n8.TrashTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrashTalk;
+			};
+			name = Debug;
+		};
+		2291E81221F3001F004F9C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V49HA8576N;
+				INFOPLIST_FILE = TrashTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = n8.TrashTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrashTalk;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-        2291E7E921F3001D004F9C63 /* Build configuration list for PBXProject "TrashTalk" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                2291E80B21F3001F004F9C63 /* Debug */,
-                2291E80C21F3001F004F9C63 /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
-        2291E80D21F3001F004F9C63 /* Build configuration list for PBXNativeTarget "TrashTalk" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                2291E80E21F3001F004F9C63 /* Debug */,
-                2291E80F21F3001F004F9C63 /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
-        2291E81021F3001F004F9C63 /* Build configuration list for PBXNativeTarget "TrashTalkUITests" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                2291E81121F3001F004F9C63 /* Debug */,
-                2291E81221F3001F004F9C63 /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
+		2291E7E921F3001D004F9C63 /* Build configuration list for PBXProject "TrashTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2291E80B21F3001F004F9C63 /* Debug */,
+				2291E80C21F3001F004F9C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2291E80D21F3001F004F9C63 /* Build configuration list for PBXNativeTarget "TrashTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2291E80E21F3001F004F9C63 /* Debug */,
+				2291E80F21F3001F004F9C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2291E81021F3001F004F9C63 /* Build configuration list for PBXNativeTarget "TrashTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2291E81121F3001F004F9C63 /* Debug */,
+				2291E81221F3001F004F9C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
-    };
-    rootObject = 2291E7E621F3001D004F9C63 /* Project object */;
+	};
+	rootObject = 2291E7E621F3001D004F9C63 /* Project object */;
 }
