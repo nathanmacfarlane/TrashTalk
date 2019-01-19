@@ -19,6 +19,7 @@
 		22F71BDA21F309D600FD8247 /* TrashMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F71BD921F309D600FD8247 /* TrashMap.swift */; };
 		22F94B4121F30691008DDA4A /* FirestoreExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F94B4021F30691008DDA4A /* FirestoreExtensions.swift */; };
 		22F94B4321F3079E008DDA4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22F94B4221F3079E008DDA4A /* GoogleService-Info.plist */; };
+		CD4B7A7921F329A8001DF863 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B7A7821F329A8001DF863 /* ImageViewController.swift */; };
 		CD99AADB21F31932008E5F2A /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = CD99AADA21F31932008E5F2A /* trash.png */; };
 		FA49DF4C1F56F88B61A9CBE8 /* Pods_TrashTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA11D8F82002B34940C54F6 /* Pods_TrashTalk.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		22F94B4221F3079E008DDA4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		78200C20AA20F231A496B8A4 /* Pods-TrashTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrashTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrashTalk/Pods-TrashTalk.debug.xcconfig"; sourceTree = "<group>"; };
 		9EA11D8F82002B34940C54F6 /* Pods_TrashTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrashTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4B7A7821F329A8001DF863 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		CD99AADA21F31932008E5F2A /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trash.png; path = ../../../../Downloads/trash.png; sourceTree = "<group>"; };
 		CEC1FC954936A085B254478A /* Pods-TrashTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrashTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrashTalk/Pods-TrashTalk.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,6 +137,7 @@
 		22F71BD821F309B200FD8247 /* SubClasses */ = {
 			isa = PBXGroup;
 			children = (
+				CD4B7A7821F329A8001DF863 /* ImageViewController.swift */,
 				22F71BD921F309D600FD8247 /* TrashMap.swift */,
 				22B4515621F3115100B1A10C /* TrashTableViewCell.swift */,
 			);
@@ -342,6 +345,7 @@
 				2291E7F221F3001D004F9C63 /* AppDelegate.swift in Sources */,
 				22F71BDA21F309D600FD8247 /* TrashMap.swift in Sources */,
 				2291E7F421F3001D004F9C63 /* MapViewVC.swift in Sources */,
+				CD4B7A7921F329A8001DF863 /* ImageViewController.swift in Sources */,
 				22F94B4121F30691008DDA4A /* FirestoreExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

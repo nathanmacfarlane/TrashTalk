@@ -2,15 +2,23 @@ import UIKit
 
 class LeaderboardVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var leaderboardTableView: UITableView!
-
+    var posts = [Post]()
+    let imgView = UIImageView(frame: CGRect.zero)
     override func viewDidLoad() {
         super.viewDidLoad()
         leaderboardTableView.delegate = self
         leaderboardTableView.dataSource = self
         print("here")
+        imgView.frame = self.view.frame
+        imgView.frame.size.height -= self.tabBarController!.tabBar.frame.height
+        self.posts.append(Post(n:"TrashyMcTrashFace", p:UIImage(named: "trash")!.pngData()!))
+
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
+        let imgvc = ImageViewController()
+        imgvc.imgView.image = UIImage(data:posts[0].picData)
+        self.present(imgvc, animated: true)
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 60
@@ -28,10 +36,15 @@ class LeaderboardVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
         cell.place.text =  String(describing: indexPath.row+1)
         cell.place.sizeToFit()
         cell.name.sizeToFit()
+        cell.selectionStyle = .none
         return cell
     }
-    
-    
-
-
+}
+struct Post : Codable{
+    let name:String
+    let picData:Data
+    init(n:String, p:Data) {
+        name = n
+        picData = p
+    }
 }
