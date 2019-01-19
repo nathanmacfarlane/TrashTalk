@@ -6,6 +6,7 @@ class LeaderboardVC: UIViewController, UITableViewDataSource, UITableViewDelegat
     @IBOutlet weak var leaderboardTableView: UITableView!
 
     var people: [User] = []
+    @IBOutlet weak var trashKingLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -14,6 +15,7 @@ class LeaderboardVC: UIViewController, UITableViewDataSource, UITableViewDelegat
         Firestore.firestore().queryAll(collection: "users", of: User.self) { users in
             self.people = users.sorted { $0.trashCount > $1.trashCount }
             self.leaderboardTableView.reloadData()
+            self.trashKingLabel.text = "Trash King: \(self.people.first?.trashCount ?? 0)"
         }
     }
 

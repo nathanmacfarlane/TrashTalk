@@ -23,7 +23,6 @@ class TrashTableViewCell: UITableViewCell {
         place.center.y = self.center.y
         contentView.addSubview(name)
         name.frame = CGRect(x: 80, y:30, width: 100, height: 10)
-        name.text = "HI I NEED TO FILL TEXT RIGHT NOW"
         name.sizeToFit()
         name.center.y = self.center.y
         contentView.addSubview(thumb)
