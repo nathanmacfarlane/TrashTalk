@@ -113,17 +113,17 @@ extension ViewController {
                 
             }
             let optionMenu = UIAlertController(title: nil, message: "Send Trash to Friends", preferredStyle: .actionSheet)
-            let trash1 = UIAlertAction(title: getTrashTalk(), style: .default) { actionItem in
+            let trash1 = UIAlertAction(title: trash[0], style: .default) { actionItem in
                 self.pushToFriends(title: actionItem.title)
                 self.postImageView.image = nil
                 self.postImageView.removeFromSuperview()
             }
-            let trash2 = UIAlertAction(title: getTrashTalk(), style: .default) { actionItem in
+            let trash2 = UIAlertAction(title: trash[1], style: .default) { actionItem in
                 self.pushToFriends(title: actionItem.title)
                 self.postImageView.image = nil
                 self.postImageView.removeFromSuperview()
             }
-            let trash3 = UIAlertAction(title: getTrashTalk(), style: .default) { actionItem in
+            let trash3 = UIAlertAction(title: trash[2], style: .default) { actionItem in
                 self.pushToFriends(title: actionItem.title)
                 self.postImageView.image = nil
                 self.postImageView.removeFromSuperview()
@@ -146,13 +146,7 @@ extension ViewController {
             }
         }
     }
-    
-    func getTrashTalk() -> String {
-        let randomIndex = Int(arc4random_uniform(UInt32(trash.count)))
-        let trash1 = trash[randomIndex]
-        trash.remove(at: randomIndex)
-        return trash1
-    }
+
     
 }
 
