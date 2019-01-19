@@ -7,21 +7,30 @@
 //
 
 import UIKit
+import Firebase
 
 class ProfileVC: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+    @IBOutlet weak var profileImage: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var countLabel: UILabel!
 
-    @IBAction func profileName(_ sender: UITextField) {
-    }
-    
-    @IBAction func profileUsername(_ sender: UITextField) {
-    }
-    
-    @IBAction func profileEmail(_ sender: UITextField) {
+    override func viewDidLoad() {
+        self.nameLabel.text = ""
+        self.usernameLabel.text = ""
+        self.countLabel.text = ""
+        super.viewDidLoad()
+        profileImage.layer.cornerRadius = profileImage.frame.width / 2.0
+        profileImage.layer.borderColor = UIColor(red: 228/255, green: 150/255, blue: 144/255, alpha: 1.0).cgColor
+        profileImage.layer.borderWidth = 5.0
+
+        Firestore.firestore().query(collection: "users", by: "id", with: "0APtjA0TWScwuuIN41VYSFg2gab2", of: User.self) { user in
+            guard let user = user.first else { return }
+            self.nameLabel.text = user.name
+            self.usernameLabel.text = user.userName
+            self.countLabel.text = "Trashes Picked Up: \(user.trashCount)"
+        }
     }
     
     @IBOutlet weak var profileStats: UIImageView!
